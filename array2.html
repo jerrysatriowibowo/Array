@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // membuat array
+        var kendaraan = ["Mobil", "Motor", "Sepeda", "Becak"];
+
+        document.write("<h3>Daftar Kendaraan :</h3>");
+        document.write("<ol>");
+
+        // mencetak isi array
+        kendaraan.forEach((data) => {
+            document.write(`<li>${data}</li>`);
+        });
+        document.write("</ol>");
+    </script>
+</body>
+</html>
